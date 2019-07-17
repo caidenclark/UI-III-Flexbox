@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
 	display: flex;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-items: center;
@@ -82,7 +82,7 @@ header nav {
 header nav a {
 	color: gray;
 	text-decoration-line: none;
-	margin: 25px;
+	margin: 0px 27px 0px 27px;
 }
 
 header nav a:hover {
@@ -91,7 +91,7 @@ header nav a:hover {
 
 header .logo {
 	display: flex;
-	margin-left: 50px;;
+	margin-left: 14px;
 	flex-flow: row wrap;
 }
 
@@ -112,6 +112,10 @@ header .logo {
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
+}
+
+.bannerbutton a {
+	text-decoration-line: none;
 }
 
 .button {
@@ -184,4 +188,68 @@ header .logo {
 footer {
 	margin-top: 75px;
 	text-align: center;
+}
+
+.servicesbanner {
+	margin-top: 25px;
+	border-bottom: 2px solid gray;
+	margin-bottom: 35px;
+}
+
+.servicesbanner h1 {
+	font-size: 30px;
+}
+
+.servicesbanner p {
+	margin-bottom: 35px;
+}
+
+.servicescontent {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 2px solid gray;
+}
+
+.contentitem {
+	border: 2px solid gray;
+	width: 48%;
+	padding: 20px;
+	margin-bottom: 35px;
+	background: lightgray;
+}
+
+.contentitem .learnbutton {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background: white;
+	padding: 3px 35px;
+	text-decoration: none;
+	color: black;
+}
+
+.contentitem a {
+	text-decoration-line: none;
+}
+
+.learnbutton:hover {
+	background: gray;
+	color: white;
+}
+
+.facts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+.factsitem1 {
+	width: 45%;
+}
+
+.facts ul {
+	list-style-type: disc;
+	list-style-position: inside;
 }
